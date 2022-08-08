@@ -19,5 +19,4 @@ export abstract class CommandExecutor<Input> {
     protected abstract proccessStream(stream: ChildProcessWithoutNullStreams , logger: IStreamLogger): void;
 
 
-
 }
