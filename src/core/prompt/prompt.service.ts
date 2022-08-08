@@ -9,7 +9,7 @@ export class PromptService {
             {
                 type,
                 name: "result",
-                message: "сообщение"
+                message
             }
         ]);
         return result
